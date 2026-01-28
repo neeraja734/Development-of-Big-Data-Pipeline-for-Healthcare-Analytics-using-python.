@@ -1,0 +1,83 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Environment Files (Secrets)
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Node / Package Managers
+# =========================
+node_modules/
+**/node_modules/
+
+# =========================
+# Build Outputs
+# =========================
+dist/
+build/
+out/
+coverage/
+**/dist/
+**/build/
+
+# =========================
+# Vite / React Cache
+# =========================
+.vite/
+.cache/
+
+# =========================
+# Backend uploads/temp
+# =========================
+tmp/
+temp/
+uploads/
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Optional: lockfiles (keep ONE if you use it)
+# (comment these if you want to track them)
+# =========================
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# =========================
+# Database / Local data
+# =========================
+*.sqlite
+*.db
+
+# =========================
+# Misc
+# =========================
+*.pem
+*.key
